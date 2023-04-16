@@ -1,1 +1,4 @@
-console.log('test2')   
+export interface IIterator<T> {
+    next(): boolean;
+    current(): T;
+}
